@@ -34,36 +34,36 @@ Sauce Demo Framework:
     image file and will store under ‘target’ folder with name and date.  
 
 1.	src/main/java.
-      •	com.SauceDemo.constants
-          o	Automation constants.java
-      •	com.SauceDemo.pages
-          o	Login.java
-          o	Inventory.java
-          o	Cart.java
-          o	CheckOutStepOne.java
-          o	CheckOutStepTwo.java
-          o	CheckOutComplete.java
-          o	Logout.java 
-       • com.SauceDemo.utilities
-          o	ExcelUtility.java
-          o	PageUtility.java
+        com.SauceDemo.constants
+                Automation constants.java
+        com.SauceDemo.pages
+                Login.java
+                Inventory.java
+                Cart.java
+                CheckOutStepOne.java
+                CheckOutStepTwo.java
+                CheckOutComplete.java
+                Logout.java 
+        com.SauceDemo.utilities
+                ExcelUtility.java
+                PageUtility.java
 
-2.	src/main/resources
-          o	TestDate.xlsx
+2. src/main/resources
+                TestDate.xlsx
+         
+3. src/test/java
+        com.SauceDemo.scripts
+                TestBase.java
+                TestClassLogin.java
+                TestClassInventory.java
+                TestClassCart.java
+                TestClassCheckOutStepOne.java
+                TestClassCheckOutStepTwo.java
+                TestClassCheckOutComplete.java
+                TestClassLogout.java
 
-3.	src/test/java
-      •	com.SauceDemo.scripts
-          o	TestBase.java
-          o	TestClassLogin.java
-          o	TestClassInventory.java
-          o	TestClassCart.java
-          o	TestClassCheckOutStepOne.java
-          o	TestClassCheckOutStepTwo.java
-          o	TestClassCheckOutComplete.java
-          o	TestClassLogout.java 
-
-4.	src/test/resources
-          o	Config.properties
+4. src/test/resources
+                Config.properties
 
 
 
